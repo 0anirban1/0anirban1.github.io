@@ -37,7 +37,7 @@
     margin-left: 1.25rem;
   }
 
-  .navbar{
+  .soumya1{
     padding-left : 18.75rem;
 }
   #openMenu{
@@ -48,21 +48,26 @@
     transition: margin-left .5s;
     padding-left: 17.5rem;
   }
-  
+  .soumya{
+    display: none;
+  }
   /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
   @media screen and (max-width : 28.125rem) {
     .sidenav {
       display: none;
   }
+  .soumya{
+    display: block;
+
+  }
   #main{
     padding-left: 0%;
   }
-  #openMenu{
-    display: inline;
+  
+  .soumya1{
+    display: none;
   }
-  .navbar{
-    padding-left: 0%;
-  }
+ 
     .sidenav a {
       font-size: 0.875rem;
     }
