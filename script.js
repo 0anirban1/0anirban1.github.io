@@ -1,7 +1,7 @@
 function openNav() {
 
   if(window.matchMedia("(max-width : 450px)").matches){
-    document.getElementById("mySidenav").style.width = "100%";
+    document.getElementById("mySidenav").style.width = "25%";
   }else{
     document.getElementById("mySidenav").style.width = "17.5rem";
     document.getElementById("mySidenav").style.display = "block";
